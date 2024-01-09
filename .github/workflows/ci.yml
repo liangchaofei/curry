@@ -32,7 +32,3 @@ jobs:
       # 部署到github
       - name: Deploy to Github
         uses: JamesIves/github-pages-deploy-action@4.0.0
-        with:
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          branch: main # 打包的内容放到build分支下
-          folder: dist
