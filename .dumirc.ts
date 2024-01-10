@@ -6,8 +6,9 @@ export default defineConfig({
     mode: 'site',
     devServer: {
       port: 1998 // 自定义端口号
-    },
-    base: `/${repo}/`,
-    publicPath:`/${repo}/`,
+    }
   },
+  base: `/${repo}/`,
+  publicPath: `/${repo}/`,
+  exportStatic: {}
 });
